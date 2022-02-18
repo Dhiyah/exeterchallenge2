@@ -1,0 +1,31 @@
+{
+  "name": "exeter_challenge",
+  "version": "1.0.0",
+  "description": "testing",
+  "main": "server.js",
+  "script": {
+    "start": "node server",
+    "dev": "nodemon server"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "controllers": "^0.0.2",
+    "exports": "^0.0.1",
+    "fastify": "^3.27.1",
+    "fastify-swagger": "^4.15.0",
+    "handler": "^0.1.3",
+    "modules": "^0.4.0",
+    "node": "^17.4.0",
+    "nodemon": "^2.0.15",
+    "scripts": "^0.1.0",
+    "students": "^1.0.0",
+    "uuid": "^8.3.2"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "devDependencies": {}
+}
